@@ -1,0 +1,56 @@
+<!--표(table)
+    <td>, <th>:데이터 셀(table-cell)
+
+    <tr>:행(table-row)
+
+    <table>:표-->
+
+    <!--<테이블 구조 관련 태그>
+
+    <caption>:표의 제목
+
+    <thead>:제목 행을 그룹
+
+    <tfoot>:바닥 행을 그룹-->
+
+    <!--<테이블 관련 속성>
+     
+        <colspan>:셀을 가로방향으로 병합
+        
+        <rowspan>:셀을 세로방향으로 병합-->    
+        
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="uft-8">
+        <table>table</table>
+        <style media="screen">
+            th, td { border: 1px solid; width: 50px; height: 50px;}
+        </style>
+    </head>
+    <body>
+        <table> 
+        <caption>Monthly savings</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>savings</th>
+            </tr>
+        </thead>
+        <tfood>
+            <tr>
+                <td colspan="2">sum</td>   
+            </tr>
+        </tfood>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td rowspan="2">$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+            </tr>
+        </tbody>
+    </body>
+
+</html> 
